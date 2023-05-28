@@ -1,0 +1,128 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+.header-head
+{
+  display: flex;
+  justify-content:  space-between;
+  
+}
+.home-about-projects-contact
+{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+ 
+ 
+}
+.my-name{
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  
+}
+.main-header-content
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+  height: 480px;
+  
+}
+.main-header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+  width: 1200px;
+  margin-top: 80px;
+
+
+}
+.my-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid #a6b0b7; /* Replace with your desired border color */
+  animation: photo-animation 2s infinite alternate;
+}
+
+@keyframes photo-animation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.linkdin-github-leetcode
+{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  justify-content: space-between;
+}
+.education
+{
+  width: 550px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+ 
+}
+.education>a{
+  text-decoration: none;
+}
+.tech-stack
+{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 20px;
+ 
+}
+.education-certificate
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.study
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 150px;
+  
+}
+.study>div>div>a
+{
+  text-decoration: none;
+  color: red;
+}
+.home-about-projects-contact>div>h4>li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.home-about-projects-contact>div>h4>li>a
+{
+  text-decoration: none;
+}
+
